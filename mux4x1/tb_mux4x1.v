@@ -21,4 +21,9 @@ s1=0; s0=0;
 
 end
 
+initial
+begin
+$dumpfile("mux4x1.vcd");
+$dumpvars(1);
+end
 endmodule
